@@ -174,7 +174,7 @@ header {
     background: transparent;
     border: 0;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     right: 1em;
     top: 1em;
     z-index: 1000;
@@ -214,6 +214,7 @@ header {
     height: 3px;
     border-radius: 1em;
     transition: transform 250ms ease-in-out;
+
 }
 
 .hamburger::before,
